@@ -1,0 +1,1 @@
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\W8JS-CanvasPaint.jsproj;neutral

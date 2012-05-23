@@ -1,0 +1,13 @@
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bin\Debug\resources.pri
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bin\Debug\AppxManifest.xml
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bin\Debug\W8JS-CanvasPaint.build.appxrecipe
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bld\Debug\priconfig.xml
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bld\Debug\layout.resfiles
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bld\Debug\resources.resfiles
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bld\Debug\pri.resfiles
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bld\Debug\LanguageQualifiers.txt
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bld\Debug\ProjectArchitectures.txt
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bld\Debug\priconfig.xml.intermediate
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bld\Debug\layout.resfiles.intermediate
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bld\Debug\resources.resfiles.intermediate
+c:\users\sascha\documents\visual studio 11\Projects\Tests\W8JS-CanvasPaint\W8JS-CanvasPaint\bld\Debug\pri.resfiles.intermediate

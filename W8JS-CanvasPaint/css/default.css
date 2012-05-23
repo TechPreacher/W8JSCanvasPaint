@@ -1,0 +1,26 @@
+﻿body {
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+
+#redButton .win-commandring {
+    background-color: rgb(255, 0, 0);
+}
+
+#greenButton .win-commandring {
+    background-color: rgb(0, 255, 0);
+}
+
+#blueButton .win-commandring {
+    background-color: rgb(0, 0, 255);
+}

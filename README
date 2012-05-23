@@ -1,0 +1,5 @@
+This project has been created for demo purposes by sascha@corti.com (@TechPreacher).
+
+W8JS-Canvas-Paint is a HTML5 Windows 8 Metro style app that allows the user to paint on a blank screen or a selected image using three colors. Pictures can also be exported to apps that handle images.
+
+canvas.js is adapted from wiliammalone's excellent "Create a Drawing App with HTML5 Canvas and JavaScript" project. (http://www.williammalone.com/articles/create-html5-canvas-javascript-drawing-app/).
