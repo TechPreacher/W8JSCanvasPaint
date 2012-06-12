@@ -4,19 +4,27 @@
     "use strict";
 
     var app = WinJS.Application;
+    var activation = Windows.ApplicationModel.Activation;
+    WinJS.strictProcessing();
 
-    app.onactivated = function (eventObject) {
-        if (eventObject.detail.kind === Windows.ApplicationModel.Activation.ActivationKind.launch) {
-            if (eventObject.detail.previousExecutionState !== Windows.ApplicationModel.Activation.ApplicationExecutionState.terminated) {
-                // TODO: This application has been newly launched. Initialize 
+    app.onactivated = function (args) {
+        if (args.detail.kind === activation.ActivationKind.launch) {
+            if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
+                // TODO: This application has been newly launched. Initialize
                 // your application here.
             } else {
-                // TODO: This application has been reactivated from suspension. 
+                // TODO: This application has been reactivated from suspension.
                 // Restore application state here.
             }
-            WinJS.UI.processAll();
+            args.setPromise(WinJS.UI.processAll());
 
             drawingApp.init();
+
+            // Register event handlers for AppBar
+            document.getElementById('appBar').winControl.sticky = true;
+            document.getElementById('redButton').addEventListener("click", drawingApp.setColorRed, false);
+            document.getElementById('greenButton').addEventListener("click", drawingApp.setColorGreen, false);
+            document.getElementById('blueButton').addEventListener("click", drawingApp.setColorBlue, false);
 
             // Import File
             document.getElementById("importButton").addEventListener("click", function () {
@@ -34,7 +42,6 @@
                     var blobUrl = URL.createObjectURL(file);
                     img.src = blobUrl;
                 });
-
             });
 
             // Save File
@@ -52,7 +59,7 @@
                             output.flushAsync().then(function () {
                                 input.close();
                                 output.close();
-                                Windows.UI.Popups.MessageDialog("File saved.").showAsync().then(function () {});
+                                Windows.UI.Popups.MessageDialog("File saved.").showAsync().then(function () { });
                             });
                         });
                     });
@@ -78,22 +85,18 @@
             if (Windows.Storage.ApplicationData.current.localSettings.values["latestColor"] != null) {
                 curColor = Windows.Storage.ApplicationData.current.localSettings.values["latestColor"];
             }
-
         }
     };
 
-    app.oncheckpoint = function (eventObject) {
+    app.oncheckpoint = function (args) {
         // TODO: This application is about to be suspended. Save any state
-        // that needs to persist across suspensions here. You might use the 
+        // that needs to persist across suspensions here. You might use the
         // WinJS.Application.sessionState object, which is automatically
         // saved and restored across suspension. If you need to complete an
         // asynchronous operation before your application is suspended, call
-        // eventObject.setPromise().
-
-        // Save last color used.
+        // args.setPromise().
         Windows.Storage.ApplicationData.current.localSettings.values["latestColor"] = curColor;
     };
 
     app.start();
-
 })();

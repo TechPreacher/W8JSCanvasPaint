@@ -1,29 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="3207dad5-a1f9-45cb-8744-d6bd0d01a52d" Version="1.0.0.0" Publisher="CN=Sascha" />
+
+  <Identity
+    Name="5fb81dfb-a1a6-4c14-b7e5-c65857bb55b5"
+    Version="1.0.0.0"
+    Publisher="CN=saschac" />
+
   <Properties>
-    <DisplayName>W8JS_CanvasPaint</DisplayName>
-    <Description>W8JS_CanvasPaint</Description>
-    <PublisherDisplayName>Sascha</PublisherDisplayName>
+    <DisplayName>W8JS-CanvasPaint</DisplayName>
+    <PublisherDisplayName>saschac</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
+
   <Prerequisites>
-    <OSMinVersion>6.2</OSMinVersion>
-    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
   </Prerequisites>
+
   <Resources>
     <Resource Language="x-generate" />
   </Resources>
+
   <Applications>
-    <Application Id="App" StartPage="default.html">
-      <VisualElements DisplayName="Canvas Paint" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="W8JS_CanvasPaint" ForegroundText="light" BackgroundColor="#000000">
-        <DefaultTile ShowName="allLogos" WideLogo="images\widelogo.png" />
+    <Application 
+      Id="App"
+      StartPage="default.html">
+
+      <VisualElements
+        DisplayName="W8JS-CanvasPaint"
+        Logo="images\logo.png"
+        SmallLogo="images\smalllogo.png"
+        Description="W8JS-CanvasPaint"
+        ForegroundText="light"
+        BackgroundColor="#464646">
+
+        <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="images\splashscreen.png" />
+
       </VisualElements>
     </Application>
   </Applications>
+
   <Capabilities>
-    <Capability Name="picturesLibrary" />
     <Capability Name="internetClient" />
   </Capabilities>
+
 </Package>

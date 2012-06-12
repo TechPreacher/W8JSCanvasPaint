@@ -1,3 +1,5 @@
+﻿/// <reference group="Dedicated Worker" />
+
 // canvas.js is adapted from wiliammalone's excellent 
 // "Create a Drawing App with HTML5 Canvas and JavaScript" project. 
 // (http://www.williammalone.com/articles/create-html5-canvas-javascript-drawing-app/).
@@ -24,7 +26,7 @@ var drawingApp = (function () {
 
     // Redraws the canvas.
     function redraw() {
-        
+
         context.lineJoin = "round";
         context.lineWidth = 5;
 
@@ -135,3 +137,4 @@ var drawingApp = (function () {
         setColorBlue: setColorBlue
     };
 }());
+
