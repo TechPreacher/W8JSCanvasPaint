@@ -20,3 +20,12 @@ C:\Users\saschac\Documents\Visual Studio 2012\Projects\Tests\W8JS-CanvasPaint RP
 C:\Users\saschac\Documents\Visual Studio 2012\Projects\Tests\W8JS-CanvasPaint RP\W8JS-CanvasPaint\bld\Debug\pri.resfiles
 C:\Users\saschac\Documents\Visual Studio 2012\Projects\Tests\W8JS-CanvasPaint RP\W8JS-CanvasPaint\bld\Debug\LanguageQualifiers.txt
 C:\Users\saschac\Documents\Visual Studio 2012\Projects\Tests\W8JS-CanvasPaint RP\W8JS-CanvasPaint\bld\Debug\ProjectArchitectures.txt
+C:\Users\saschac\Documents\GitHub\W8JSCanvasPaint\W8JS-CanvasPaint\bin\Debug\resources.pri
+C:\Users\saschac\Documents\GitHub\W8JSCanvasPaint\W8JS-CanvasPaint\bin\Debug\AppxManifest.xml
+C:\Users\saschac\Documents\GitHub\W8JSCanvasPaint\W8JS-CanvasPaint\bin\Debug\W8JS-CanvasPaint.build.appxrecipe
+C:\Users\saschac\Documents\GitHub\W8JSCanvasPaint\W8JS-CanvasPaint\bld\Debug\priconfig.xml
+C:\Users\saschac\Documents\GitHub\W8JSCanvasPaint\W8JS-CanvasPaint\bld\Debug\layout.resfiles
+C:\Users\saschac\Documents\GitHub\W8JSCanvasPaint\W8JS-CanvasPaint\bld\Debug\resources.resfiles
+C:\Users\saschac\Documents\GitHub\W8JSCanvasPaint\W8JS-CanvasPaint\bld\Debug\pri.resfiles
+C:\Users\saschac\Documents\GitHub\W8JSCanvasPaint\W8JS-CanvasPaint\bld\Debug\LanguageQualifiers.txt
+C:\Users\saschac\Documents\GitHub\W8JSCanvasPaint\W8JS-CanvasPaint\bld\Debug\ProjectArchitectures.txt

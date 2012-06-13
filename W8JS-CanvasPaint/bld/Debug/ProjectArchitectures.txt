@@ -1,1 +1,1 @@
-C:\Users\saschac\Documents\Visual Studio 2012\Projects\Tests\W8JS-CanvasPaint RP\W8JS-CanvasPaint\W8JS-CanvasPaint.jsproj;neutral
+C:\Users\saschac\Documents\GitHub\W8JSCanvasPaint\W8JS-CanvasPaint\W8JS-CanvasPaint.jsproj;neutral
